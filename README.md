@@ -3,25 +3,21 @@
 
 Project: File IO and Exceptions
 Author: Katrina Hill
-Links and Resources
 
 ## Setup
 
-.env requirements (where applicable)
+.venv requirements
 
-i.e.
+- Created and activated virtual environment
 
-    PORT - Port Number
-    DATABASE_URL - URL to the running Postgres instance/db
+## Initialize/run your application
 
-## How to initialize/run your application (where applicable)
+- Created __init__.py files in madlib_cli and tests folders
+- Created assets folder and txt file for template
 
-    e.g. python main.py
-
-## How to use your library (where applicable)
 
 ## Tests
 
-    How do you run tests?
-    Any tests of note?
-    Describe any tests that you did not complete, skipped, etc
+    How do you run tests? Ran "pytest" against functions to check tests
+    Any tests of note? test_read_template_returns_stripped_string(), test_parse_template(), test_merge(), test_read_template_raises_exception_with_bad_path()
+    Describe any tests that you did not complete, skipped, etc. I completed all tests.
